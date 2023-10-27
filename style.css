@@ -26,4 +26,27 @@ main{
 /* Seletor pelo id */
 #titulo{
     color: rgb(212, 0, 255);
-}''
+}
+
+/* Seletor pelo atributo */
+input[type="password"] {
+    font-size: 3rem;
+}
+
+/* Seletor por descendentes */
+.login-form input{
+    font-size: 2rem;
+    color: aquamarine;
+}
+
+/* Seletor de filhos diretos */
+.login-form > input{
+    color: aqua;
+    width: 10rem;
+}
+
+/* Pseudo classes */
+.cadastro-form div:nth-of-type(2){
+    background: rgb(17, 0, 255);
+}
+
